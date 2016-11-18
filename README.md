@@ -18,3 +18,4 @@ Example of a use for the Mediator pattern with a chatroom.
 3. run :
 
   ```$ ./testChat```
+
