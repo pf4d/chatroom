@@ -26,3 +26,6 @@ Three methods of installation are provided :
 For more info, investigate the `.sh` files, the `CMakeLists.txt` files in directory `cmake_use_cases`, and the resulting `Make` files and libraries in the `build` directory.
 
 
+Here's a class diagram :
+
+![Class Diagram](/doc/umbrello/class_diagram_5.png)
