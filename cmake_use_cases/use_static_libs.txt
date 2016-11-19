@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.5.1)
+project(chatroom)
+
+# set the variable "PROJECT_LINK_LIBS" to the static lib in sub-directory
+# "build/lib/static" :
+set(PROJECT_LINK_LIBS libchatroom.a)
+link_directories(build/lib/static)
+
+# include the source headers :
+include_directories(include)
+
+# create the executable "testChat" from the source "main.cpp" :
+add_executable(testChat main.cpp)
+
+# link with the previously-build static libray defined above :
+target_link_libraries(testChat ${PROJECT_LINK_LIBS})
+
+
+

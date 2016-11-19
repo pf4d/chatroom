@@ -8,8 +8,11 @@ include_directories(include)
 # use file(GLOB ...) to add *.cpp files to variable "SOURCES" :
 file(GLOB SOURCES "src/*.cpp")
 
-# generate the shared library from "SOURCES" variable just created :
+# generate the static library from "SOURCES" variable just created :
 add_library(chatroom STATIC ${SOURCES})
 
 # set the location for installation :
 install(TARGETS chatroom DESTINATION /usr/lib)
+
+
+
