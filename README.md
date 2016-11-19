@@ -23,6 +23,6 @@ Three methods of installation are provided :
   $ ./shared_install.sh
   ```
 
-For more info, investigate the `.sh`, the CMakeLists.txt files in ``cmake_use_cases``, and the resulting Make files and libraries in the ``build`` directory.
+For more info, investigate the `.sh` files, the `CMakeLists.txt` files in directory `cmake_use_cases`, and the resulting `Make` files and libraries in the `build` directory.
 
 
