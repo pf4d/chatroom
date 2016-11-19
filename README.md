@@ -1,7 +1,7 @@
 chatroom
 ========
 
-Example of a use for the Mediator pattern with a chatroom and installation with CMake similar to that demonstrated by [Derek Molloy](http://derekmolloy.ie/hello-world-introductions-to-cmake/).
+Example of a use for the [Mediator pattern](https://en.wikipedia.org/wiki/Mediator_pattern) with a chatroom and installation with CMake similar to that demonstrated by [Derek Molloy](http://derekmolloy.ie/hello-world-introductions-to-cmake/).
 
 Three methods of installation are provided :
 
